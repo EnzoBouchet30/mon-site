@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  margin: 40px;
+}
+
+h1 {
+  color: #bd3a73;
+  text-align: center;
+}
+
+h2 {
+  color: #ffd166;
+}
+
+a {
+  color: #4cc9f0;
+}
+
+img {
+  width: 300px;
+}
+
+p {
+  transition: 0.3s;
+  padding: 50px;
+  border: 2px solid #bd3a73;
+  margin-bottom: 20px;
+}
+
+.culte {
+  background-color: #cc37c58f;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.boite {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+p:hover {
+  background-color: #3c2dc7;
+}
