@@ -44,3 +44,12 @@ p {
 p:hover {
   background-color: #3c2dc7;
 }
+
+@media (max-width: 600px) {
+  .boite {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}
